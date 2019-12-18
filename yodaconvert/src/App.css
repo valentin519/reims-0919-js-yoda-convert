@@ -8,7 +8,15 @@
   margin: 0;
 }
 
+<<<<<<< HEAD
 /* CSS Converter */
+=======
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 0.3s linear;
+  }
+}
+>>>>>>> d3b5ffffa32355aa136c61c555c8ff64a89af077
 
 .textContainer {
   display: flex;
@@ -30,3 +38,24 @@
   background-color: black;
   color: white;
 }
+/*******************Button debut*************************************/
+
+.aeraButtons{
+  display: flex;
+  border-radius: 5px;
+  width: 94%;
+  height: 30vh;
+  border: 3px solid rgb(165, 172, 209);
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(165, 178, 212);
+}
+.aeraButtons button{
+  width: 30vw;
+  height: 4vw;
+  border-radius: 10px ;
+  box-shadow: 10px 5px 5px rgb(44, 6, 182);
+}
+
+
+/*******************Button fin*************************************/
