@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import ButtonConvDel from './Button.jsx';
+import Converter from './components/Converter'
 
 function App() {
   return (
     <div className="App">
-      <ButtonConvDel />
+      <Converter />
     </div>
   );
 }

@@ -2,39 +2,33 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 0.3s linear;
-  }
-}
+/* CSS Converter */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.textContainer {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+.input-text {
+  margin-top: 10em;
+  color: black;
+}
+
+.output-text {
+  margin-top: 10em;
+  background-color: black;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 /*******************Button debut*************************************/
 
@@ -42,7 +36,7 @@
   display: flex;
   border-radius: 5px;
   width: 94%;
-  height: 3rem;
+  height: 30vh;
   border: 3px solid rgb(165, 172, 209);
   justify-content: space-around;
   align-items: center;
