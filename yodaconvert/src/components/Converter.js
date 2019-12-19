@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import '../App.css';
 import convertToHTML from 'markdown-to-html-converter' //npm install markdown-to-html-converter
 import ButtonConvDel from './Button.jsx';
+const MarkdownIt = require('markdown-it'), md = new MarkdownIt();
 
 
 class Converter extends Component {
@@ -26,14 +27,16 @@ class Converter extends Component {
     })
   }
 
+
+
   showOutPut(){
     this.setState({
-      outputText : convertToHTML(this.state.inputText)
+      outputText : md.render(this.state.inputText)
     })
   }
 
   countWords() {
-    let countWord = replace(/";|#;|-;|/g,"'")
+    let countWord =(/";|#;|-;|/g,'')
   }
     
   render () {
