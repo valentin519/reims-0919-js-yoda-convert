@@ -1,7 +1,9 @@
 import React from "react";
 import '../App.css';
 import Converter from './Converter.js'
+import Tittle from './Tittle.js'
 import NavBar from './NavBar.js'
+
 
 
 function MainPage(){
@@ -11,8 +13,7 @@ function MainPage(){
                 <NavBar/>
             </div>  
 
-            <div className = "TittleBarre">
-            </div>
+            <Tittle/>
 
             <Converter/>
 
