@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import WelcomePage from './components/WelcomePage'
-import './App.css';
 // import LinkRedirectory from './components/links/link.component';
 // import { Route, Switch } from "react-router-dom";
 // import { BrowserRouter } from "react-router-dom";
