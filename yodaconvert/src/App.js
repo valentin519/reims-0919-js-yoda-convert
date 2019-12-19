@@ -3,12 +3,12 @@ import React from 'react';
 import './App.css';
 import WelcomePage from './components/WelcomePage'
 import './App.css';
-// import Converter from './components/Converter'
+import MainPage from './components/MainPage'
 
 function App() {
   return (
     <div className="App">
-      <WelcomePage/>
+      <MainPage/>
     </div>
   );
 }
