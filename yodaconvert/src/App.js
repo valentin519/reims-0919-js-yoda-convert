@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './App.css';
-import WelcomePage from './component/WelcomePage'
+import WelcomePage from './components/WelcomePage'
 import './App.css';
 // import Converter from './components/Converter'
 
