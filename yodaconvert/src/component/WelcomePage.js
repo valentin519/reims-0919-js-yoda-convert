@@ -48,11 +48,17 @@ class WelcomePage extends Component{
   <source src="saber.mp3" type="audio/mpeg" />
   Your browser does not support the audio element.
 </audio>
+
 <audio onLoadedData={(event) => { const audio = event.target; setTimeout(() =>  audio.play(), 6500) }}>
   <source src="neon.ogg" type="audio/ogg" />
   <source src="neon.mp3" type="audio/mpeg" />
   Your browser does not support the audio element.
-</audio>				
+</audio>	
+<audio onLoadedData={(event) => { const audio = event.target; setTimeout(() =>  audio.play(),0) }}>
+  {/* <source src="saber.ogg" type="audio/ogg" /> */}
+  <source src="music.mp3" type="audio/mpeg" />
+  Your browser does not support the audio element.
+</audio>			
 
 <svg version="1.1" id="yoda" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
 	 viewBox="0 0 656 887.9" style={{enableBackground:"new 0 0 656 887.9"}}>
@@ -355,6 +361,9 @@ class WelcomePage extends Component{
 	</p> <br></br>
 	<p> HTML you will be"
 	</p>
+</div>
+<div className = 'source'>
+	<a href='https://codepen.io/Sepion'>Animated by Sépion</a>
 </div>
 <div>	
 <button>Welcome</button>

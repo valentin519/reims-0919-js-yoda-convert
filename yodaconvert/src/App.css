@@ -1,10 +1,6 @@
 /* ******************************** Welcome Page *********************************** */
 
 .welcome{
-  /* background-image: url('https://zupimages.net/up/19/51/laee.jpg') ;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; */
   height: 100vh; 
   background-color:black;
   display: flex;
@@ -36,5 +32,16 @@
   left: 95vh;
   top: 20vw;
   font-size: 3vh;
-
+}
+.source{
+  color: red;
+  text-shadow: 2px 2px 2px red;
+  position: absolute;
+  right: 3vw;
+  bottom: 3vh;
+  
+}
+.source a{
+  text-decoration: red;
+  color: red;
 }
