@@ -16,10 +16,12 @@ class Components extends Component {
 
 
 handleInputChange(e) {
+    const newText = e.target.value
     this.setState({ 
-        inputText: e.target.value,
-        outputText : convertToHTML(this.state.inputText) })
-      }
+      inputText: newText,
+      outputText : convertToHTML(newText)
+    })
+  }
     
 render () {
     console.log(this.state)
