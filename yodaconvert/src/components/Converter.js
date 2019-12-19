@@ -1,6 +1,8 @@
 import React, {Component} from "react";
 import '../App.css';
 import convertToHTML from 'markdown-to-html-converter' //npm install markdown-to-html-converter
+import ButtonConvDel from './Button.jsx';
+
 
 class Components extends Component {
     constructor (props) {
@@ -26,9 +28,10 @@ render () {
             
             <textarea className="input-text" name="inputText" rows="6" cols="40" value={this.state.inputText} onChange={this.handleInputChange}>    
             </textarea>
+            <ButtonConvDel/>
             <textarea className="output-text" name="outputText" rows="6" cols="40" value={this.state.outputText} onChange={this.handleInputChange} >    
             </textarea>
-             
+            
         </div>
     )
 }}
