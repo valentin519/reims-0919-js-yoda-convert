@@ -9,7 +9,7 @@
 .welcome button{
   position: absolute;
   top: 90vh;
-  left: 40vw;
+  left: 45%;
   background-color: black;
   box-shadow: 3px 3px 5px #3eff06;
   color: #3eff06;
@@ -29,7 +29,7 @@
   color: #3eff06;
   text-shadow: 2px 2px 2px #01cc00;
   position: absolute;
-  left: 95vh;
+  left: 70%;
   top: 20vw;
   font-size: 3vh;
 }
