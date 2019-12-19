@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-function ButtonConvDel() {
+class ButtonConvDel extends Component {
+
+  render(){
     return (
       <div className='aeraButtons'>
-        <button>Convertir</button>
-        <button>Reset</button>
+        <button onClick = {this.props.convert}>Convertir</button>
+        <button onClick = {this.props.delet}>Reset</button>
       </div>
     );
   }
+}
 
 export default ButtonConvDel;
