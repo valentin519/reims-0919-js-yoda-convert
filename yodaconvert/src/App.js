@@ -8,7 +8,7 @@ import MainPage from './components/MainPage';
 function App() {
   return (
     <div className="App">
- 
+    
         <BrowserRouter>
           
           <Switch>
@@ -18,7 +18,6 @@ function App() {
           
         </BrowserRouter> 
 
-      <WelcomePage/>
     </div>
   );
 }

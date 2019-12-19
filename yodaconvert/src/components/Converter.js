@@ -9,7 +9,8 @@ class Converter extends Component {
         super(props)
         this.state={
             inputText:'',
-            outputText:''
+            outputText:'',
+            counter: 0
         }
         this.handleInputChange = this.handleInputChange.bind(this);
         this.showOutPut = this.showOutPut.bind(this);
@@ -24,10 +25,15 @@ class Converter extends Component {
       outputText: htmlTexte,
     })
   }
+
   showOutPut(){
     this.setState({
       outputText : convertToHTML(this.state.inputText)
     })
+  }
+
+  countWords() {
+    let countWord = replace(/";|#;|-;|/g,"'")
   }
     
   render () {
@@ -37,7 +43,7 @@ class Converter extends Component {
             <textarea className="input-text" name="inputText" rows="6" cols="40" value={this.state.inputText} onChange={this.handleInputChange}>    
             </textarea>
             <ButtonConvDel convert={this.showOutPut} delet = {this.handleInputChange } />
-            <textarea className="output-text" name="outputText" rows="6" cols="40" value={this.state.outputText} readOnly >    
+            <textarea className="output-text" name="outputText" rows="6" cols="40" value={this.state.outputText} readonly >    
             </textarea>
             
         </div>
