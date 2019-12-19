@@ -12,12 +12,12 @@ import WelcomePage from './components/WelcomePage';
 function App() {
   return (
     <div className="App">
-{/* 
+ 
         <BrowserRouter>
           
           <Switch>
-            <Route exact path="/home" exact component={} />
-            <Route path="/page2" component={} />
+            <Route exact path="/" exact component={WelcomePage} />
+            <Route path="/main" component={} />
           </Switch>
           
         </BrowserRouter>  */}

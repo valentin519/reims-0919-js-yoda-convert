@@ -365,8 +365,8 @@ class WelcomePage extends Component{
 <div className = 'source'>
 	<a href='https://codepen.io/Sepion'>Animated by Sépion</a>
 </div>
-<div>	
-<button>Welcome</button>
+<div className="Buttonhome">	
+	<Link to="/main">Welcome</Link>
 </div>
  
 			</div>
