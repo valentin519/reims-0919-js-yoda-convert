@@ -31,7 +31,7 @@ render () {
             <textarea className="input-text" name="inputText" rows="6" cols="40" value={this.state.inputText} onChange={this.handleInputChange}>    
             </textarea>
             <ButtonConvDel/>
-            <textarea className="output-text" name="outputText" rows="6" cols="40" value={this.state.outputText} onChange={this.handleInputChange} >    
+            <textarea className="output-text" name="outputText" rows="6" cols="40" value={this.state.outputText} readonly >    
             </textarea>
             
         </div>
