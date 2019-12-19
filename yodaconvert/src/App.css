@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
-}
+/* ******************************** Welcome Page *********************************** */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.welcome{
+  /* background-image: url('https://zupimages.net/up/19/51/laee.jpg') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+  height: 100vh; 
+  background-color:black;
   display: flex;
   flex-direction: column;
+}
+.welcome button{
+  position: absolute;
+  top: 90vh;
+  left: 40vw;
+  background-color: black;
+  box-shadow: 3px 3px 5px #3eff06;
+  color: #3eff06;
+  border-color: #3eff06;
+  padding: 1%;
+  border-radius: 22px;
+  text-shadow: 2px 2px 2px #08ff06;
+  font-size: 5vh;
+  
+}
+.logoWelcome{
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+.citation{
+  color: #3eff06;
+  text-shadow: 2px 2px 2px #01cc00;
+  position: absolute;
+  left: 95vh;
+  top: 20vw;
+  font-size: 3vh;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
