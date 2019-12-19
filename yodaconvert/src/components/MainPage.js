@@ -1,6 +1,7 @@
 import React from "react";
 import '../App.css';
 import Converter from './Converter.js'
+import Tittle from './Tittle.js'
 
 
 function MainPage(){
@@ -9,8 +10,7 @@ function MainPage(){
             <div className = "AsideBarre">
             </div>  
 
-            <div className = "TittleBarre">
-            </div>
+            <Tittle/>
 
             <Converter/>
 
