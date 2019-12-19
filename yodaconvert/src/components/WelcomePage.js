@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css'
+import {Link} from 'react-router-dom';
+
 
 class WelcomePage extends Component{
 	constructor(props){
@@ -365,13 +367,14 @@ class WelcomePage extends Component{
 <div className = 'source'>
 	<a href='https://codepen.io/Sepion'>Animated by Sépion</a>
 </div>
-<div>	
-<button>Welcome</button>
+ 
+<div className="ButtonHome">	
+	
+	<Link to="/main">Welcome</Link>
+
 </div>
  
 			</div>
-
-			
 		)
 		}
 };
