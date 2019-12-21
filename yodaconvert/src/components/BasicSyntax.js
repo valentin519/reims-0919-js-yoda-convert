@@ -26,7 +26,6 @@ class BasicSyntax extends Component {
           return <div >
             <ul>
               <li>Nom: {res.name}</li>
-              <li>Description: {res.description}</li>
               <li>{res.examples[0].markdown}</li>
               <li>html: {res.examples[0].html}</li>
 
